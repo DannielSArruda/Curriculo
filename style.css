@@ -1,0 +1,46 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+
+header {
+    overflow: hidden;
+	background: #BBBBBB;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 9px;
+    right: 0px;
+    
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
