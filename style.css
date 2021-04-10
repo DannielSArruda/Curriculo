@@ -87,6 +87,19 @@ body{
 	cursor: pointer;
 }
 
+/*------------------Experience Start-------------------*/
+
+#experience p{
+	text-align: justify;
+}
+
+#experience #text{
+	padding-top: 15px;
+}
+
+#experience #imagem{
+	padding: 0;
+}
 /*------------------Service Start-------------------*/
 
 #service .button{
