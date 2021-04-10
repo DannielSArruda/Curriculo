@@ -35,7 +35,7 @@ body{
 
 .heading-content{
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	width: 100%;
 	max-width: 100%;
 }
@@ -57,7 +57,7 @@ body{
 .heading-content p{
 	font-size: 1em;
 	text-transform: uppercase;
-	font-weight: lighter;
+	font-weight: bolder;
 	color: #ccc;
 	word-spacing: 5px;
 	letter-spacing: 2px;
@@ -135,11 +135,15 @@ body{
 }
 
 /*----------------------------Media Query-----------------------*/
-@media screen and(max-width: 767px){
-/*------------Tablet-------------*/
+/*--------------Tablet--------------*/
+@media screen and (max-width: 767px){
 .navbar{
 	letter-spacing: 0.1em;
 	padding: 10px 0;
+}
+
+.heading-content {
+    top: 35%;
 }
 
 .heading-content h5{
@@ -156,11 +160,19 @@ body{
 
 }
 
-@media screen and(max-width: 479px){
-/*------------Smartphone-----------*/
+/*------------Smartphone------------*/
+@media screen and (max-width: 479px){
 .navbar{
 	letter-spacing: 0.1em;
 	padding: 7px 0;
+}
+
+.container{
+	width: 90%;
+}
+
+.heading-content {
+    top: 20%;
 }
 
 .heading-content h5{
