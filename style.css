@@ -67,11 +67,10 @@ body{
 
 #about .btn{
 	border: 2px solid transparent;
-	width: 40%;
-	padding: 15px 22px;
-	background-color: #000;
-	border-radius: 5px;
-	margin-top: 10px;
+    width: 8%;
+    background-color: #000;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 #about .btn a{
@@ -81,6 +80,15 @@ body{
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+#about h2{
+font-weight: bold;
+}
+
+#about p{
+	text-align: justify;
+}
+	
 
 #about .btn:hover{
 	border: 2px solid #1ebba3;
@@ -99,6 +107,9 @@ body{
 
 #experience #imagem{
 	padding: 0;
+}
+#experience h2{
+	font-weight: bold;
 }
 /*------------------Service Start-------------------*/
 
