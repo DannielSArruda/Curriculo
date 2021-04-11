@@ -95,6 +95,10 @@ font-weight: bold;
 	cursor: pointer;
 }
 
+#about #cv{
+	width: 25%;
+}
+
 /*------------------Experience Start-------------------*/
 
 #experience p{
@@ -111,6 +115,21 @@ font-weight: bold;
 #experience h2{
 	font-weight: bold;
 }
+/*------------------Skills Start-------------------*/
+#skills .progress-bar{
+	text-align: justify;
+	font-weight: bold;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+#skills .col-lg-6{
+	padding-top: 20px;
+}
+
+
+
+
 /*------------------Service Start-------------------*/
 
 #service .button{
