@@ -98,6 +98,16 @@ font-weight: bold;
 #about #cv{
 	width: 25%;
 }
+#about i{
+	font-style: normal;
+}
+
+#profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
 
 /*------------------Experience Start-------------------*/
 
